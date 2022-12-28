@@ -8,7 +8,7 @@ const Individual = ({data}) => {
     const rotateX = useTransform(y, [-100, 100], [30, -30]);
     const rotateY = useTransform(x, [-100, 100], [-30, 30]);
   return (
-    <>
+    <div className=" bg-[url('https://images.hdqwalls.com/download/pikachu-in-forest-ka-1360x768.jpg')] bg-cover  ">
       <div className=' justify-center items-center   p-8 h-[570px] bg-[url("../public/pokemon.jpg")] bg-cover'>
         <div className="flex-none text-center text-white font-extrabold text-4xl mb-10" >POKEMON  3D
         </div>
@@ -91,7 +91,7 @@ const Individual = ({data}) => {
           </motion.div>
         </motion.div>
       </div>
-    </>
+    </div>
   );
 }
 
