@@ -64,7 +64,7 @@ export default function Home({ array2, tipos, interar }) {
     }
   };
   return (
-    <div className="bg-[url('https://images.hdqwalls.com/download/pokemon-go-team-valor-hd-4k-1360x768.jpg')] bg-cover">
+    <div className="bg-[url('https://c.wallhere.com/photos/e0/7f/Pok_mon_Mewtwo-197314.jpg!d')] bg-cover">
       <div className="p-4 ">
         <h1 className="text-center text-7xl font-bold text-boton  cursor-pointer">
           {sentence.map((letter, index) => {
