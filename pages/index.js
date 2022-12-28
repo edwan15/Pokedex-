@@ -72,7 +72,7 @@ export default function Home({ array2, tipos, interar }) {
           })}
         </h1>
       </div>
-      <div className="grid justify-center md:grid-cols-2 mt-5 mx-10 p-4 gap-3">
+      <div className="grid justify-center md:grid-cols-2 mt-5 mx-10 p-4 gap-3 bg-[url('https://images.hdqwalls.com/download/pokemon-go-team-valor-hd-4k-1360x768.jpg')] bg-cover">
         <div className=" bg-cardOverlay p-4 rounded-md ">
           <div className="p-4 justify-center items-center flex">
             <button
@@ -155,7 +155,7 @@ export default function Home({ array2, tipos, interar }) {
         variants={container}
         initial="hidden"
         animate="show"
-        className="grid sm:grid-cols-2 md:grid-cols-3 p-4 gap-15 cursor-pointer"
+        className="grid sm:grid-cols-2 md:grid-cols-3 p-4 gap-15 cursor-pointer bg-[url('https://images.hdqwalls.com/download/pokemon-go-team-valor-hd-4k-1360x768.jpg')] bg-cover"
       >
         {filtrar &&
           results.map((pokemon) => {
