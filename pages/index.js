@@ -220,7 +220,7 @@ export async function getServerSideProps() {
   };
 
   let arraypokemon = [];
-  for (let index = 1; index <= 100; index++) {
+  for (let index = 1; index <= 10; index++) {
     let data = await traerpokemones(index);
     arraypokemon.push(data);
   }
