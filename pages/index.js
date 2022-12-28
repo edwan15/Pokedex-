@@ -44,7 +44,7 @@ export default function Home({ array2, tipos, interar }) {
 
   useEffect(() => {
     array2;
-  }, []);
+  }, [array2]);
 
   const filtros = (elTipo) => {
     setFiltrar(array2);
@@ -68,7 +68,7 @@ export default function Home({ array2, tipos, interar }) {
       <div className="p-4">
         <h1 className="text-center text-7xl font-bold text-boton  cursor-pointer">
           {sentence.map((letter, index) => {
-            return <TextSpan>{letter === " " ? "\u00A0" : letter}</TextSpan>;
+            return <TextSpan key={index}>{letter === " " ? "\u00A0" : letter}</TextSpan>;
           })}
         </h1>
       </div>
@@ -160,7 +160,7 @@ export default function Home({ array2, tipos, interar }) {
         {filtrar &&
           results.map((pokemon) => {
             return (
-              <div>
+              <div  key={pokemon.id}>
                 <motion.div
                   variants={item}
                   key={pokemon.id}
