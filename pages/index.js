@@ -64,7 +64,7 @@ export default function Home({ array2, tipos, interar }) {
     }
   };
   return (
-    <div className="bg-[url('https://images.wallpapersden.com/image/download/pokemon-unite-hd_bG5sa2aUmZqaraWkpJRmaGtlrWxrbQ.jpg')] bg-cover">
+    <div className="h-screen bg-[url('https://images.hdqwalls.com/download/bulbasaur-pokemon-dt-1360x768.jpg')] bg-cover bg-center ">
       <div className="p-4 ">
         <h1 className="text-center text-7xl font-bold text-boton  cursor-pointer">
           {sentence.map((letter, index) => {
@@ -155,7 +155,7 @@ export default function Home({ array2, tipos, interar }) {
         variants={container}
         initial="hidden"
         animate="show"
-        className="grid sm:grid-cols-2 md:grid-cols-3 p-4 gap-15 cursor-pointer "
+        className="grid sm:grid-cols-2 md:grid-cols-3 p-4 gap-15 cursor-pointer bg-[url('https://images.hdqwalls.com/download/squirtle-pokemon-minimal-4k-1i-1360x768.jpg')] bg-contain "
       >
         {filtrar &&
           results.map((pokemon) => {
