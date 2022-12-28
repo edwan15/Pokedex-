@@ -64,8 +64,8 @@ export default function Home({ array2, tipos, interar }) {
     }
   };
   return (
-    <>
-      <div className="p-4 bg-[url('https://images.hdqwalls.com/download/pokemon-go-team-valor-hd-4k-1360x768.jpg')] bg-cover">
+    <div className="bg-[url('https://images.hdqwalls.com/download/pokemon-go-team-valor-hd-4k-1360x768.jpg')] bg-cover">
+      <div className="p-4 ">
         <h1 className="text-center text-7xl font-bold text-boton  cursor-pointer">
           {sentence.map((letter, index) => {
             return <TextSpan key={index}>{letter === " " ? "\u00A0" : letter}</TextSpan>;
@@ -202,7 +202,7 @@ export default function Home({ array2, tipos, interar }) {
             );
           })}
       </motion.div>
-    </>
+    </div>
   );
 }
 
